@@ -1,0 +1,56 @@
+.resume-builder {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-button {
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .save-exit-button {
+    color: #2256A2;
+    cursor: pointer;
+    background: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .progress-bar {
+    height: 0.5rem;
+    background-color: #2256A2;
+    margin-top: 0.6rem;
+    border-radius: 2rem;
+  }
+  
+
+  .question {
+    margin-top: 3rem;
+    gap:0rem;
+  }
+  
+  .question p {
+    color: #888a94;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .question h4 {
+    color: #2E3847;
+    font-size: 1.6rem;
+        padding: 0;
+        margin: 0;
+        font-weight: 600;
+  }
+  

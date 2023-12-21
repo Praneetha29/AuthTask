@@ -1,0 +1,112 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+
+.formcomp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0;
+}
+
+.checklist-form {
+    width: 45%;
+    margin: 2rem auto;
+    padding: 1.4rem;
+    border-radius: 8px;
+    opacity: 0.9;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .form-header,
+  .form-subheader,
+  .question {
+    text-align: center;
+    
+  }
+  .option{
+    text-align: left;
+  }
+  
+  .form-header {
+    color: #2E3847;
+    font-size: 2.5rem;
+    padding: 0;
+    display: block;
+    width: 40%;
+    margin: 0;
+   font-weight: 600;
+  }
+  
+  .form-subheader {
+    color: #888a94;
+    font-size: 1.5rem;
+    display: block;
+    width: 36%;
+    margin-bottom: 0;
+  }
+  
+  .question {
+    font-weight: bold;
+    color: #888a94;
+    text-align: left;
+    margin-bottom: 1.4rem;
+    font-size: 1.4rem;
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .option {
+    margin-top: 5px;
+    border: 1px solid #f7f8f3;
+    padding: 1rem;
+    background-color: #f7f8f3;
+    color: #a4a8ab;
+    border-radius: 1rem;
+    width: 100%;
+    margin-bottom: 1.4rem;
+    font-weight: 600;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 1rem;
+  }
+
+  .contButton {
+    padding: 1vh 2vw;
+    background-color: #2256A2;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.8rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .checklist-form {
+      width: 80%;
+      padding: 15px;
+    }
+  
+    .form-header,
+    .form-subheader,
+    .question,
+    .option {
+      text-align: center;
+    }
+  
+    .options {
+      flex-direction: column;
+    }
+  
+    .option {
+      width: 100%;
+    }
+  }
+  
